@@ -1,0 +1,16 @@
+#Write an R script to find basic descriptive statistics using summary, str, quartile function on mtcars& cars datasets
+summary(cars)
+str(cars)
+print(data(cars))
+head(cars)
+tail(cars)
+dim(cars)
+quantile(cars$speed)
+
+summary(mtcars)
+str(mtcars)
+head(mtcars)
+tail(mtcars)
+dim(mtcars)
+summary(mtcars$disp)
+quantile(mtcars$gear)
