@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Rubik+Bubbles&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+font-family: 'Cookie', cursive;
+font-family: 'Rubik Bubbles', cursive;
+}
+body{
+    background-image:url("codeimages/dubaibg.png");
+    background-position: center;
+    background-size:cover;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    backdrop-filter:blur(1.5px);
+
+}
+.containerbox{
+    width:900px;
+    height:500px;
+    background-image:url("codeimages/dubaifg.png");
+    box-shadow:0 0 20px rgb(17, 242, 126);
+    background-position: center;
+    background-size:cover;
+
+}
+nav{
+    display:flex;
+    padding:30x 10px;
+}
+.logo{
+    color:green;
+    cursor:pointer;
+    font-size:30px;
+}
+nav ul{
+    flex:1;
+    text-align:right;
+}
+nav ul li{
+    color:rgb(233, 71, 71);
+    display:inline-block;
+    list-style:none;
+    margin-left:30px;
+    font-size:30px;
+
+}
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+nav ul li a:hover{
+    text-decoration:underline;
+}
+#exploring{
+    color:rgb(83, 83, 222);
+    font-size:25px;
+    margin:130px 120px -20px;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing:2px;
+}
+#adventure{
+    color:rgb(244, 236, 236);
+    font-size:140px;
+    margin:20px 140px 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing:60px;
+    opacity:1;
+    background-image:linear-gradient(45deg,black,white,black,white,black,white);
+    background-size:100%;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;
+    -webkit-text-fill-color: transparent;
+
+}
